@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>A viagem dos sonhos</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-    </head>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A viagem dos sonhos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
     <header>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -23,7 +24,7 @@
                       <li class="nav-item">
                       <a class="nav-link" href="#">pacotes</a>
                       </li>
-                      
+                      </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">Taxas</a>
                       </li>
@@ -32,41 +33,46 @@
                           Contato
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Email</a></li>
-                          <li><a class="dropdown-item" href="#">Nosso discord</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Contato para assistência</a></li>
+                            <div class="dropdown-container">
+                                <div class="dropdown">
+                                  <button class="dropbtn">Contato</button>
+                                  <div class="dropdown-content">
+                                    <a href="#">Email</a>
+                                    <a href="#">Nosso discord</a>
+                                    <a href="#">Ligue já</a>
+                                  </div>
+                                </div>
                         </ul>
                       </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-cart4"></i></a>
+                        </li>
                     </ul>
                   </div>
-              </div></nav>
+              </nav>
               <div id="carouselExampleCaptions" class="carousel slide">
                 <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
-                  <div class="carousel-item ratio ratio-16x9">
-                    <img src="img/Carousel/Portodg-a.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-item active">
+                    <img src="img/Carousel/greece-a.jpg" class="d-block w-100 carousel-image" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>Hotel Porto de galinhas</h5>
-                      <p>Some representative placeholder content for the first slide.</p>
+                      <h5>De um país para o outro</h5>
                     </div>
                   </div>
-                  <div class="carousel-item ratio ratio-16x9">
-                    <img src="img/Carousel/Portugal-a.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-item">
+                    <img src="img/Carousel/Portodg-a.jpg" class="d-block w-100 carousel-image" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>Hotel em Portugal</h5>
-                      <p>Some representative placeholder content for the second slide.</p>
+                      <h5>Entre mares e montanhas</h5>
                     </div>
                   </div>
-                  <div class="carousel-item ratio ratio-16x9 active">
-                    <img src="img/Carousel/greece-a.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-item">
+                    <img src="img/Carousel/Portugal-a.jpg" class="d-block w-100 carousel-image" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>Hotel em greece</h5>
-                      <p>Some representative placeholder content for the third slide.</p>
+                      <h5>Venha conhecer o Wingscape</h5>
                     </div>
                   </div>
                 </div>
@@ -83,29 +89,52 @@
     <section class="container-fluid bg-light text-center p-2">
     <h2>conheça nossos pacotes</h2>
     <p>
-        Boa viagem, ou melhor dizer, boas viagens, bons momentos, boas companhias, boas risadas,bons dias e boas noites... 
-        Que o novo se faça presente em sua vida de uma forma especial, assim como você é. E que teu espírito aventureiro e 
-        desbravador espante qualquer solidão.Boa viagem, ou melhor dizer, boas viagens, bons momentos, boas companhias,
-        boas risadas,bons dias e boas noites... Que o novo se faça presente em sua vida de uma forma especial,
-        assim como você é. E que teu espírito aventureiro e desbravador espante qualquer solidão. 
+        Boa viagem, ou melhor dizer, boas viagens, bons momentos e boas companhias. 
         <br>
-        <a href="https://br.lipsum.com/">link</a>
-
-    </p><hr>
-    <p></p>
-    <div class="row">
-    <figure class="col text-center">
-    <img src="img/porto-portugal.jpg" alt="imagem de porto em portugal" width="300px">
-    <figcaption>Porto - portugal</figcaption>
-    </figure>
-    <figure class="col text-center">
-    <img src="img/porto-de-galinhas.jpg" alt="imagem de porto de galinhas" width="300px">
-    <figcaption>Porto de galinhas Pernambuco</figcaption>
-    </figure>
-    <figure class="col text-center">
-    <img src="img/paris-frança.jpg" alt="Imagem de Paris França" width="300px">
-    <figcaption>Paris França</figcaption>
-    </figure>
+        </p>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="img/porto-de-galinhas.jpg" class="card-img-top" alt="...">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-title text-light">Porto de galinhas</h5>
+                  <h1 class="card-subtitle text-light">R$900,00</h1>
+                  <p class="card-text text-light">Porto de Galinhas é muito mais do que um destino; é uma experiência sensorial e emocional que deixa memórias inesquecíveis. Venha descobrir Porto de Galinhas e deixe-se levar pelas maravilhas deste destino extraordinário.</p>
+                </div>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+                <div class="card-footer">
+                  <small class="text-muted">Em até 24x sem juros</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="img/paris-frança.jpg" class="card-img-top" alt="...">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-title text-light">Paris, França</h5>
+                  <h1 class="card-subtitle text-light">R$3.900</h1>
+                  <p class="card-text text-light">Paris é uma cidade que abraça todas as paixões e inspira a criatividade. Sua herança histórica se mistura harmoniosamente com o presente, criando uma experiência única. Visitar Paris é embarcar em um sonho que desperta os sentidos, repleto de momentos inesquecíveis que durarão uma vida inteira.</p>
+                </div>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+                <div class="card-footer">
+                  <small class="text-muted">Em até 24x sem juros</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="img/porto-portugal.jpg" class="card-img-top" alt="...">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-title text-light">Porto, portugal</h5>
+                  <h1 class="card-subtitle text-light">R$3.500</h1>
+                  <p class="card-text text-light">Com seu clima ameno, cultura acolhedora e paisagens memoráveis, Porto é um convite para uma viagem repleta de descobertas e experiências inesquecíveis. Dos becos encantados à vivacidade do rio Douro, Porto é um destino que cativa todos os sentidos e enche o coração com lembranças eternas.</p>
+                </div>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+                <div class="card-footer">
+                  <small class="text-muted">Em até 24x sem juros</small>
+                </div>
+              </div>
+            </div>
     </div>
     </section>
     <section class="container-fluid bg-light text-xl-center p-2">
@@ -117,9 +146,9 @@
             <tr>
                 <th>Serviço</th>
                 <th>Valor</th>
-            </tr></thead>
+            </thead>
             <tbody class="table-group-divider">
-            
+            </tr>
             <tr>
                 <td>Reserva de Hotel</td>
                 <td>R$150,00</td>
@@ -151,7 +180,7 @@
             <label class="form-label" for="Email">
                 Email:
             </label>
-            <input type="email" class="form-control" required="" name="Email" id="Email">
+            <input type="email" class="form-control" required name="Email" id="Email">
         </div>
         <div class="mb-3">
             <label class="form-label" for="dataIda">
@@ -230,10 +259,26 @@
             <textarea rows="5" name="Comentário"></textarea><br><br>
         </form>
     </section>
-<footer class="container-fluid bg-success p-2 text-center">
+<footer class="container-fluid bg-secondary p-2 text-center">
     <p>Desenvolvido por Thaís Amancio</p>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-
 </body>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Suas Compras</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Produto adicionado no carrinho!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar comprando</button>
+          <a href="checkout.html" type="button" class="btn btn-success">Finalizar à compra</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </html>
